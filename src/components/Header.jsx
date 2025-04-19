@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {
   FaHome,
   FaLaptopCode,
@@ -7,20 +7,20 @@ import {
   FaGraduationCap,
   FaCode,
   FaEnvelope, // Icon for Connect
-} from "react-icons/fa";
-import { Link, useLocation } from "react-router-dom";
+} from 'react-icons/fa';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Header() {
   const location = useLocation();
   const [activeLink, setActiveLink] = useState(() => {
     // Initialize active link based on current path
-    const path = location.pathname.substring(1) || "home";
+    const path = location.pathname.substring(1) || 'home';
     return path;
   });
 
   const navLinks = [
     { id: 'home', icon: FaHome, text: 'Home', path: '/' },
-    { id: 'about', icon: FaHome, text: 'About', path: '/about' },
+    { id: 'about', icon: FaUser, text: 'About', path: '/about' },
     { id: 'skills', icon: FaCode, text: 'Skills', path: '/skills' },
     {
       id: 'experience',
@@ -54,14 +54,14 @@ export default function Header() {
                   hover:bg-white/10 
                   ${
                     activeLink === id
-                      ? "bg-white/15 text-white"
-                      : "text-gray-300 hover:text-white"
+                      ? 'bg-white/15 text-white'
+                      : 'text-gray-300 hover:text-white'
                   }
                 `}
               >
                 <Icon
                   className={`text-base ${
-                    activeLink === id ? "scale-110" : ""
+                    activeLink === id ? 'scale-110' : ''
                   }`}
                 />
                 <span className="hidden md:inline">{text}</span>

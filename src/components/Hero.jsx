@@ -6,6 +6,7 @@ import profile from '../assets/images/profileimg.jpg';
 import Meteors from './ui/meteors';
 import SparklesText from './ui/sparkles-text';
 import { FlipWords } from './ui/flip-words';
+import SocallIcon from './socallIcon';
 
 // AnimatedGrid Component
 const AnimatedGrid = () => {
@@ -174,6 +175,9 @@ const profile = {
                     </span>
                   </span>
                 </a>
+           
+                  <SocallIcon />
+              
               </div>
 
               {/* Floating badges */}
@@ -207,7 +211,6 @@ const profile = {
             </div>
           </div>
         </section>
-      
       </main>
     </>
   );

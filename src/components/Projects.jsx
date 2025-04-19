@@ -2,6 +2,7 @@ import React from 'react';
 import { Github, ExternalLink } from 'lucide-react';
 import proj1 from '../assets/images/project1.png';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import Projact from './Projact';
 
 const MacOsButtons = () => (
   <div className="flex gap-2 mb-4">
@@ -98,6 +99,7 @@ const ProjectShowcase = () => {
           </div>
         ))}
       </div>
+      <Projact/>
     </div>
   );
 };

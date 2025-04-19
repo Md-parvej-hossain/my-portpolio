@@ -1,5 +1,5 @@
-import React from "react";
-import { Code2, Activity, Cpu, Layers, Network, Binary } from "lucide-react";
+
+import { Code2, Activity, Cpu, Layers, Network, Binary } from 'lucide-react';
 
 const ExperienceCard = ({
   title,
@@ -56,27 +56,27 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      title: 'Junior mern stack developer ',
+      company: 'Fiverr',
+      period: '2019 - 2020',
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
+        'Passionate and dedicated Junior MERN Stack Developer with hands-on experience in building full-stack',
     },
     {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
+      title: 'Junior Frontend Developer',
+      company: 'Sera Programmer',
+      period: '2021 - 2023',
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
+        'Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.',
     },
     {
       icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
+      title: 'JavaScript Developer',
+      company: 'OlovJS (Sera Programmer)',
+      period: '2023 - Present',
       description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+        'Contributed to developing JavaScript libraries and enhancing framework functionalities.',
     },
   ];
 
@@ -92,12 +92,12 @@ const ExperienceSection = () => {
           <div className="flex flex-col items-center space-y-6 mb-16">
             <div className="relative">
               <h2 className="text-4xl md:text-6xl font-extrabold text-transparent bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-500 bg-clip-text">
-                Professional Journey
+                Career Chronicles
               </h2>
               <div className="absolute inset-0 -z-10 bg-gradient-to-r from-purple-400/30 to-indigo-400/30 blur-xl rounded-xl" />
             </div>
             <p className="text-sm md:text-lg text-gray-400 font-medium italic tracking-wide">
-              "Crafting stories, one milestone at a time..."
+              "Empowering futures, one solution at a time..."
             </p>
             <div className="animate-pulse mt-4 w-6 h-6 border-4 border-dashed border-cyan-400 rounded-full" />
           </div>

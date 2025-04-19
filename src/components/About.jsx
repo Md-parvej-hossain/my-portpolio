@@ -43,7 +43,7 @@ const About = () => {
         <div>
           <p>2018 - Present</p>
           <h3>Web Development Farm</h3>
-          <p>
+          <p className="">
             I am working on a remote job in a USA-based company as a WordPress
             Theme Developer and plugin Developer. My main job is to create a
             WordPress theme, customization, and create based on client needs.{' '}
