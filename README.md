@@ -17,7 +17,7 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 
 ## Demo
 
-![Portfolio Demo](https://i.ibb.co.com/whQng3pn/redme.png)
+![Portfolio Demo](https://spontaneous-jelly-4f510c.netlify.app/)
 
 ---
 
