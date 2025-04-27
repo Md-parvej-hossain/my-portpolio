@@ -3,7 +3,7 @@ import pro from '../assets/images/pro.jpg';
 const About = () => {
   return (
     <div className="bg-[#0F1629] ">
-      <div className="flex justify-center py-10">
+      <div className="flex justify-center py-20 ">
         <div>
           <img
             // src="https://i.ibb.co.com/ym8wVg49/Whats-App-Image-2025-02-05-at-15-55-02-80d5502e.jpg"

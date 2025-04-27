@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Send, Phone, MapPin, Mail } from 'lucide-react';
+import { Send, MapPin, Mail } from 'lucide-react';
+import { useState } from 'react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -16,7 +16,7 @@ export default function Contact() {
 
     // Create a new FormData object to send to Web3Forms API
     const form = new FormData();
-    form.append('access_key', '90f4b8af-e590-42b0-beaf-10b18f66a703'); // Replace with your Web3Forms access key
+    form.append('access_key', '4b060ec1-b452-440e-b4a5-92bf8373d30a'); // Replace with your Web3Forms access key
     form.append('name', formData.name);
     form.append('email', formData.email);
     form.append('subject', formData.subject || 'New Contact Form Submission');

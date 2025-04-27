@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import Prism from 'prismjs';
 import 'prismjs/components/prism-javascript';
 import '../assets/css/tomorrow.css';
@@ -7,6 +6,7 @@ import Meteors from './ui/meteors';
 import SparklesText from './ui/sparkles-text';
 import { FlipWords } from './ui/flip-words';
 import SocallIcon from './socallIcon';
+import { useEffect, useState } from 'react';
 
 // AnimatedGrid Component
 const AnimatedGrid = () => {
@@ -119,7 +119,7 @@ const profile = {
                 <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight">
                   <SparklesText text="Hello" />
                   <span className="relative inline-block">
-                    I'm
+                    I&apos;m
                     <span className="typing-effect gradient-text">
                       {' '}
                       Md Parvej Hossain

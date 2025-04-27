@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 import {
   FaArrowRight,
   FaBootstrap,
@@ -19,10 +20,12 @@ const Projact = () => {
   return (
     <section className="my-8">
       <div className="text-center text-[#F8B90C] py-10">
-        <h1 className="text-6xl font-bold py-2">See Projact </h1>
+        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold py-2">
+          See Projact{' '}
+        </h1>
       </div>
-      <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-5   py-10 ">
-        <div className="card bg-[#1C222A] p-5 shadow-sm hover:scale-110 transition rounded-lg">
+      <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-5 md:px-5 py-10 ">
+        <div className="card bg-[#1C222A] p-4 shadow-sm hover:scale-105 transition rounded-lg">
           <figure>
             <img className="rounded-lg" src={pro1} alt="Shoes" />
           </figure>
@@ -53,7 +56,7 @@ const Projact = () => {
             </div>
           </div>
         </div>
-        <div className="card bg-[#1C222A] p-5 shadow-sm hover:scale-110 transition rounded-lg">
+        <div className="card bg-[#1C222A] p-4 shadow-sm hover:scale-110 transition rounded-lg">
           <figure>
             <img className="rounded-lg" src={pro2} alt="Shoes" />
           </figure>
@@ -81,7 +84,8 @@ const Projact = () => {
             </div>
           </div>
         </div>
-        <div className="card bg-[#1C222A] p-5 shadow-sm hover:scale-110 transition rounded-lg">
+
+        <div className="card bg-[#1C222A] p-4 shadow-sm hover:scale-110 transition rounded-lg">
           <figure>
             <img className="rounded-lg" src={pro3} alt="Shoes" />
           </figure>
